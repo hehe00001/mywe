@@ -25,6 +25,7 @@ body {
     text-align: center;
     position: relative;
     animation: fadeIn 1s ease-in-out;
+    animation-duration: 1s; /* added */
 }
 
 h1 {
@@ -44,7 +45,7 @@ h1 {
     padding: 25px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    height: 400px;
+    max-height: 400px; /* changed from height to max-height */
     overflow-y: auto;
     box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.1);
 }
